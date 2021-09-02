@@ -1,0 +1,1 @@
+# onlineshop-configserver-service
