@@ -13,3 +13,13 @@ spring:
       host: localhost
       port: 27017
       database: onlineshopdb
+      
+microservice:
+  payment-service:
+    endpoints:
+      endpoint:
+        uri: http://ONLINESHOP-PAYMENT-SERVICE/payment/dopayment
+  order-service:
+    endpoints:
+      endpoint:
+        uri: http://ONLINESHOP-ORDER-SERVICE/order/bookorder          
