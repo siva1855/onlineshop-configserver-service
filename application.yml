@@ -17,3 +17,10 @@ microservice:
       endpoints:
          endpoint:
              uri: http://ONLINESHOP-ORDER-SERVICE/order/bookorder
+         
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: onlineshopdb
