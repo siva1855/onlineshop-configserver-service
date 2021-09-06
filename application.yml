@@ -15,5 +15,4 @@ spring:
       database: onlineshopdb
       
 microservice:
-  endpoint:
-    uri: http://ONLINESHOP-PAYMENT-SERVICE/payment/dopayment       
+  enpoint: http://ONLINESHOP-PAYMENT-SERVICE/payment/dopayment    
