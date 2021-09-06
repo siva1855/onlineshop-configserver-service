@@ -13,6 +13,3 @@ spring:
       host: localhost
       port: 27017
       database: onlineshopdb
-      
-microservice:
-  enpoint: http://ONLINESHOP-PAYMENT-SERVICE/payment/dopayment    
